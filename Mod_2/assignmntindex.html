@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+<title>sample webpage</title>
+<meta charset="utf-8">
+<style type="text/css">
+*{
+box-sizing: border-box;
+}
+h1 {
+margin-bottom: 15px;
+}
+div{background-color: red;
+
+
+}
+#p1,#p2,#p3 {border: 2px solid black;
+  padding-right: 20px;
+}
+
+p {
+width: 90%;
+height: 100px;
+margin-right: auto;
+margin-left: auto;
+font-family: helvetica;
+margin-bottom: 20px;
+background-color: gray;
+}
+
+
+.row {
+width: 100%;
+  }
+ 
+ @media (min-width: 1200px)
+ {
+  .class1, .class2, .class3{
+  float: left;
+ 
+  }
+ 
+   }
+  #p1{
+  width: 30%;
+  position: relative;
+  top: 60px;
+  left: 50px;
+  }
+  #p2{
+    position: relative;
+    top: 65px;
+    left: 60px;
+  width: 30%;
+  }
+  #p3{
+    position: relative;
+    top: 70px;
+    left: 60px;
+  width: 40%;
+  }
+ }
+ @media (min-width: 950px) and (max-width: 1199px)
+ {
+  .class1,.class2,.class3{
+  float: left;
+  border: 1px solid black;
+  }
+  .class1{
+  width: 8.33%;
+  }
+  .class2{
+  width: 16.66%;
+  }
+  .class3{
+  width: 25%;
+  }
+  #p1{
+  width: 50%;
+   
+  }
+  #p2{
+  width: 50%;
+  }
+  #p3{
+  width: 100%;
+  }
+  h2,h3,h4 { font-size: 30px;
+     border: 1px solid black;
+  }
+  .head1{
+    border: 1px solid red;
+  }
+
+ }
+</style>
+</HEAD>
+<BODY>
+<H1 align='center'>Our Menu</H1>
+<div class="row">
+<div class="class1" id="p1"><div class="head1"><h2 class="head1" text align="right" >chicken</h2></div><p> lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commando consequat</p></div>
+<div class="class2" id="p2"><h3 text align="right">beef</h3><p>lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commando consequat</p></div>
+<div class="class3" id="p3"><h4 text align="right">sushi</h4><p>lorem ipsum dolor sit amet,consectetur adipising elit,sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commando consequat</p></div>
+</div>
+<BODY>
+</HTML>
